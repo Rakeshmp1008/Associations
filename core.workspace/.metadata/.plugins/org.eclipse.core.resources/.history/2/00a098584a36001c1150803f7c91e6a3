@@ -1,0 +1,32 @@
+package com.rakesh.dp.dao;
+
+import com.rakesh.dp.dto.iplDTO;
+
+public class iplDAO {
+
+	private iplDTO[] dtos = new iplDTO[100];
+	private int count = 0;
+
+	public void create(iplDTO dto) {
+		if (count < this.dtos.length && dtos != null) {
+
+			this.dtos[this.count++] = dto;
+			System.out.println("CREATE TEAM NO : ".concat(String.valueOf(count)));
+		} else {
+			System.out.println("CREATE METHOD IS INVALID");
+		}
+	}
+
+	public iplDTO[] getDtos() {
+		return dtos;
+	}
+
+	public void create(iplDTO dto, int nataka) {
+		if (nataka >= 0 && nataka < this.dtos.length && dto!=null) {
+			this.dtos[nataka] = dto;
+		} else {
+			System.out.println("CREATE METHOD OVERLOADIN IS INVALID");
+		}
+	}
+
+}

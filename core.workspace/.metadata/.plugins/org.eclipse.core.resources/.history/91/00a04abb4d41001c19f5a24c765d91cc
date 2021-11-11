@@ -1,0 +1,39 @@
+package com.rakesh.dp.dto;
+
+public class InstagramApplicationDTO extends ApplicationDTO{
+
+	private Integer totalUsers;
+	private String location;
+	
+	public InstagramApplicationDTO() {
+		super("INSTAGRAM",2.3f,"DAMN","THRISHUL");
+	}
+	public InstagramApplicationDTO(Integer totalUsers, String location) {
+	//	super();
+		super("INSTAGRAM",2.3f,"DAMN","THRISHUL");
+
+		System.out.println("Invoked InstagramApplicationDTO");
+		this.totalUsers = totalUsers;
+		this.location = location;
+	}
+
+	public Integer getTotalUsers() {
+		return totalUsers;
+	}
+
+	public void setTotalUsers(Integer totalUsers) {
+		this.totalUsers = totalUsers;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+	
+	
+	
+	
+}

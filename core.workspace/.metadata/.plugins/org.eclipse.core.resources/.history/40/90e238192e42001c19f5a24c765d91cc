@@ -1,0 +1,50 @@
+package com.rakesh.overridingmethods;
+
+public class Ipod {
+
+	private String modelNo;
+
+	@Override
+	public String toString() {
+		System.out.println("Invoke to string method");
+		return "100";
+	}
+     
+	@Override
+	public int hashCode() {
+		System.out.println("Invoke HashCode Method");
+		return 100;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (obj != null) {
+			System.out.println("You Are not Passing null");
+			if (obj instanceof Ipod) {
+				Ipod casted = (Ipod) obj;
+				String checkWith = casted.getModelNo();
+				if (this.modelNo.equals(checkWith)) {
+					System.out.println("model no is found");
+					return true;
+				} else {
+					System.err.println("missmatching the model no");
+				}
+
+			} else {
+				System.err.println("Value that you are passing is not of data type Ipod ");
+			}
+
+		}
+
+		return false;
+	}
+
+	public String getModelNo() {
+		return modelNo;
+	}
+
+	public void setModelNo(String modelNo) {
+		this.modelNo = modelNo;
+	}
+
+}

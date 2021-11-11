@@ -1,0 +1,13 @@
+package com.rakesh.dp;
+
+import com.rakesh.dp.dto.WebSeriesDTO;
+
+public class WebSeriesStarterDTO {
+
+	public static void main(String[] args) {
+		
+		WebSeriesDTO ref= new WebSeriesDTO("GOT",Genre.ACTION,"ROSE",10,)  
+
+	}
+
+}

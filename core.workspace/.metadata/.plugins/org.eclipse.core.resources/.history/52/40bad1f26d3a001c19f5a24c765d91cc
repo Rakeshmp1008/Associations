@@ -1,0 +1,38 @@
+package com.rakesh.dp.dao;
+
+import java.util.Iterator;
+
+import com.rakesh.dp.dto.ApplicationDTO;
+
+public class ApplicationDAO {
+
+	private ApplicationDTO[] dtos=new ApplicationDTO[10];
+	private int zee=0;
+	
+	public void save(ApplicationDTO dto) {
+	if(this.zee<this.dtos.length && dto!=null) {	
+		this.dtos[this.zee]=dto;
+	}
+	else {
+		System.out.println("SAVE METHOD IS NOT POSSIBLE");
+	}
+	}
+	
+	
+public Boolean searchApplicationByName(String name) {
+	System.out.println("Name Passed : ".concat(name));
+	for (int can = 0; can < dtos.length; can++) {
+		ApplicationDTO ref=dtos[can];
+	}
+	
+	if(ref !=null) {
+		String searchName=ref.getName();
+		if(name.equals(searchName)) {
+			
+		}
+		
+	}
+	return false;
+}
+	
+}

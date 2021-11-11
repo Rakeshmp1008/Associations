@@ -1,0 +1,26 @@
+package com.rakesh.dp;
+
+import com.rakesh.dp.dao.WebSeriesDAO;
+import com.rakesh.dp.dto.WebSeriesDTO;
+
+public class WebSeriesStarterDTO {
+
+	public static void main(String[] args) {
+		
+		WebSeriesDTO ref= new WebSeriesDTO("GOT","ROSE",10,9.5f,6,8);
+		WebSeriesDAO ref1=new WebSeriesDAO();
+		
+		ref1.saveWebSeries(ref);
+		
+		WebSeriesDTO[] lock=new WebSeriesDTO[10];
+		
+		for (int wall = 0; wall < lock.length; wall++) {
+			
+			WebSeriesDTO dtoref=lock[wall];
+		}
+		
+		
+
+	}
+
+}

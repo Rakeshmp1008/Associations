@@ -1,0 +1,19 @@
+package com.rakesh.overridingmethods;
+
+public class Ipod {
+
+	private String modelNo;
+
+	@Override
+	public String toString() {
+	System.out.println("Invoke to string method");
+		return "100";
+	}
+	
+	@Override
+	public int hashCode() {
+		System.out.println("Invoke HashCode Method");
+		return 100;
+	}
+	
+}

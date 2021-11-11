@@ -1,0 +1,29 @@
+package com.rakesh.dp;
+
+
+import com.rakesh.dp.dao.ApplicationDAO;
+import com.rakesh.dp.dto.ApplicationDTO;
+import com.rakesh.dp.dto.FaceBookApplicationDTO;
+import com.rakesh.dp.dto.InstagramApplicationDTO;
+
+
+public class ApplicationStarter {
+
+	public static void main(String[] args) {
+		
+		
+		//daoref.save(new ApplicationDTO ("PUBG",1.3f,"KRAFTON","John"));
+		//daoref.save(new InstagramApplicationDTO(10,"locationa"));
+		//daoref.save(new FaceBookApplicationDTO("Rakesh","California"));
+		
+	ApplicationDTO applicationDTO=new ApplicationDTO();
+	
+		InstagramApplicationDTO instagramDTO=new InstagramApplicationDTO(10,"new york");
+		ApplicationDAO daoref=new ApplicationDAO();
+		daoref.save(instagramDTO);
+		
+		
+
+	}  
+
+}

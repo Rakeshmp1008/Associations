@@ -1,0 +1,25 @@
+package com.rakesh.dp;
+
+
+import com.rakesh.dp.dao.ApplicationDAO;
+import com.rakesh.dp.dto.ApplicationDTO;
+import com.rakesh.dp.dto.FaceBookApplicationDTO;
+import com.rakesh.dp.dto.InstagramApplicationDTO;
+
+public class ApplicationStarter {
+
+	public static void main(String[] args) {
+		ApplicationDTO dtoref2=new ApplicationDTO("INSTAGRAM",182.3f,"FACEBOOK","RAKESH");
+		InstagramApplicationDTO dtoref=new InstagramApplicationDTO(5000,"BENGALURU");
+		FaceBookApplicationDTO dtoref1=new FaceBookApplicationDTO("MARK JUCKERBERG","CALIFORNIA");
+		
+		ApplicationDAO daoref=new ApplicationDAO();
+		daoref.save(dtoref2);
+		daoref.displayFaceBookApplicationsDtos();
+		
+		
+		
+	
+	}
+
+}

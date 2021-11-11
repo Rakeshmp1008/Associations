@@ -1,0 +1,17 @@
+package com.rakesh.hajama;
+
+public class SaloonStarter {
+
+	public static void main(String[] args) {
+		
+		/*Saloon saloon=new NaturalSaloon();
+		System.out.println(saloon.name);*/
+		
+		Saloon naturalref=new NaturalSaloon();
+		System.out.println(naturalref.name);
+
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.rakesh.hajama;
+
+public class SaloonStarter {
+
+	public static void main(String[] args) {
+		
+		Saloon saloon=new Saloon();
+		System.out.println(saloon);
+
+	}
+
+}

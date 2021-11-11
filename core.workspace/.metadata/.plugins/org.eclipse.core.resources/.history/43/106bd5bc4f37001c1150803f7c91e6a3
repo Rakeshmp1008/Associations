@@ -1,0 +1,19 @@
+package com.rakesh.hajama;
+
+public class Saloon {
+
+	public String name="GURU";
+	
+	
+	public Saloon() {
+	
+		System.out.println("INVOKING NO ARG CONSTRUCTOR OF CLASS SALOON---->1");
+	}
+
+	/*public Saloon(String name) 
+	{
+		this.name=name;
+		System.out.println("INVOKING STRING ARG CONSTRUCTOR----1"); 
+	}*/
+	
+}

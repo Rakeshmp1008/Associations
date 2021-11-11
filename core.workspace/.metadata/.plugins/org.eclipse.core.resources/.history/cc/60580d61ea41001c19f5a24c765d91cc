@@ -1,0 +1,12 @@
+package com.rakesh.overridingmethods;
+
+public class IpodScammer {
+
+	public static void main(String[] args) {
+
+		Ipod ipod1=new Ipod();
+		System.out.println(ipod1);
+		System.out.println(ipod1);
+	}
+
+}

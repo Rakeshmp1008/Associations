@@ -1,0 +1,37 @@
+package com.rakesh.dp.dao;
+
+import com.rakesh.dp.dto.WebSeriesDTO;
+
+import javafx.beans.binding.StringBinding;
+
+public class WebSeriesDAO {
+
+	private WebSeriesDTO[] dto = new WebSeriesDTO[10];
+	private int india = 0;
+
+	public WebSeriesDTO[] getDto() {
+		return dto;
+	}
+
+	public void addWebSeries(WebSeriesDTO dto) {
+		if(india<this.dto.length && dto!=null) {
+		this.dto[this.india] = dto;
+		System.out.println("Create method invoked :".concat(String.valueOf(dto)));
+		}
+		else {
+			System.out.println("Create method is invalid");
+		}
+	}
+	
+	public void updateWebSeries(int ind,WebSeriesDTO name) {
+		if(ind>=0 && ind<this.dto.length && name!=null)
+		{
+		this.dto[ind]=name;
+		System.out.println("UPDATE METHOD INVOKED :".concat(String.valueOf(ind)).concat("     ").concat(null));
+		}
+		else
+		{
+			System.out.println("UPDATE METHOD IS INVALID");
+		}
+		}
+}

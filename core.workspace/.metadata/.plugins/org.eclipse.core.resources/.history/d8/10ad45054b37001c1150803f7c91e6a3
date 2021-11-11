@@ -1,0 +1,16 @@
+package com.rakesh.hajama;
+
+public class NaturalSaloon extends Saloon {
+
+	public String name = "HAJAMA";
+	
+
+	public NaturalSaloon() {
+		System.out.println("INVOKING NO ARG CONSTROCTOR---->1");
+	}
+
+	public NaturalSaloon(String name) {
+		this.name=name;
+		System.out.println("STRING CONSTRUCTOR---->1");
+	}
+}

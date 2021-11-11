@@ -1,0 +1,19 @@
+package com.rakesh.hajama;
+
+public class Saloon {
+
+	public String name;
+	public int noOfHajamas;
+	
+	public Saloon() {
+	System.out.println("INVOKING NO ARG CONSTRUCTOR");
+	
+	}
+	
+	public Saloon(String name) 
+	{
+		this.name=name;
+		System.out.println("INVOKING STRING ARG CONSTRUCTOR");
+	}
+	
+}

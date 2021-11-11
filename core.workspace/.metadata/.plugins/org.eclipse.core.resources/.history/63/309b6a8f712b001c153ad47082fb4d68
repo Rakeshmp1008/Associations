@@ -1,0 +1,15 @@
+package com.xwokz.diamond.shop;
+
+public class Joyalukas {
+
+	public static void main(String[] args) {
+		private String ownerName="Ayyappa";
+		
+		String getOwnerName() 
+		{
+			
+		}
+
+	}
+
+}

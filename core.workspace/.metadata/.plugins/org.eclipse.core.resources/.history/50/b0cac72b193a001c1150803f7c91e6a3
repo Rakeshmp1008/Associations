@@ -1,0 +1,5 @@
+package com.rakesh.dp.dto;
+
+public class FaceBookApplicationDTO {
+
+}

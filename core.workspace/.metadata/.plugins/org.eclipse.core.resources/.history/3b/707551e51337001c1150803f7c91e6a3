@@ -1,0 +1,14 @@
+package com.rakesh.hajama;
+
+public class NaturalSaloon extends Saloon {
+
+	public NaturalSaloon() {
+		this("GURU");
+		System.out.println("INVOKING NO ARG CONSTROCTOR");
+	}
+	
+	public NaturalSaloon(String name) {
+		this.name=name;
+		System.out.println("INVKING STRING ARG CONSTROCTOR");
+	}
+}
