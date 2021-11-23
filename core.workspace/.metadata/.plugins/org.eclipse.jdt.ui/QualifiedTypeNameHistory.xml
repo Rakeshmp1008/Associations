@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworks.driver.BusDriver"/>
-    <fullyQualifiedTypeName name="com.xwokz.diamondring.Diamond"/>
-    <fullyQualifiedTypeName name="com.xworkz.pack1.Dam"/>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.axes.ReverseAxesWalker"/>
-    <fullyQualifiedTypeName name="com.rakesh.pack1.StringArrayStarter"/>
-    <fullyQualifiedTypeName name="com.rakesh.crud.operators.BeachOperators"/>
     <fullyQualifiedTypeName name="com.sun.javafx.geom.AreaOp.AddOp"/>
     <fullyQualifiedTypeName name="com.rakesh.crud.operator.Chocolate"/>
     <fullyQualifiedTypeName name="com.rakesh.crud.operator.Gin"/>
@@ -42,7 +36,6 @@
     <fullyQualifiedTypeName name="com.rakesh.dp.dao.DoctorDAO"/>
     <fullyQualifiedTypeName name="com.rakesh.dp.dto.MovieDTO"/>
     <fullyQualifiedTypeName name="com.rakesh.dp.dao.MovieDAO"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.rakesh.hajama.NaturalSaloon"/>
     <fullyQualifiedTypeName name="com.rakesh.aquarium.GoldFish"/>
     <fullyQualifiedTypeName name="com.rakesh.aquarium.Fish"/>
@@ -50,4 +43,21 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.rakesh.dp.dao.LawyerDAO"/>
     <fullyQualifiedTypeName name="com.rakesh.dp.dto.LawyerDTO"/>
+    <fullyQualifiedTypeName name="com.rakesh.overridemethods.AiroPlane"/>
+    <fullyQualifiedTypeName name="com.rakesh.overridemethods.Stadium"/>
+    <fullyQualifiedTypeName name="com.rakesh.overridemethods.City"/>
+    <fullyQualifiedTypeName name="com.rakesh.overridemethods.Tyre"/>
+    <fullyQualifiedTypeName name="com.rakesh.overridemethods.NewsPaper"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.rakesh.abstractfile.Assignment"/>
+    <fullyQualifiedTypeName name="com.rakesh.abstractfile.JavaAssignment"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.rakesh.implement.AmenityRules"/>
+    <fullyQualifiedTypeName name="com.rakesh.implement.CompanyRule"/>
+    <fullyQualifiedTypeName name="com.rakesh.implement.HostelRule"/>
+    <fullyQualifiedTypeName name="com.rakesh.task.CartDTO"/>
+    <fullyQualifiedTypeName name="com.rakesh.task.AmazonCartDAO"/>
+    <fullyQualifiedTypeName name="com.rakesh.task.ArrayAmazonCartDAO"/>
+    <fullyQualifiedTypeName name="com.rakesh.task.AmazonBusiness"/>
 </qualifiedTypeNameHistroy>

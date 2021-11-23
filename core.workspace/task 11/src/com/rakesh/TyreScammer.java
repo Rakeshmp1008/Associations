@@ -11,5 +11,4 @@ public class TyreScammer {
 		
 		System.out.println(ref.equals(ref1));
 	}
-
 }

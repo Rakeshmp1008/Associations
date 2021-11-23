@@ -1,0 +1,5 @@
+package com.rakesh.task;
+
+public interface AmazonCartDAO {
+
+}

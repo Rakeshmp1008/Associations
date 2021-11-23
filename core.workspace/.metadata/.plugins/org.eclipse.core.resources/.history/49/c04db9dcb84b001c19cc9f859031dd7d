@@ -1,0 +1,5 @@
+package com.rakesh.task1;
+
+public interface AsusComputerDAO {
+
+}
