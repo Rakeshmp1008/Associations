@@ -1,6 +1,0 @@
-package com.rakesh.task1;
-
-public interface AsusComputerDAO {
-
-	boolean save(ComputerDTO dto)
-}

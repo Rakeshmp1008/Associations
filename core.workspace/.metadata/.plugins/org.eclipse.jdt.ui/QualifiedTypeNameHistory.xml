@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.sun.javafx.geom.AreaOp.AddOp"/>
-    <fullyQualifiedTypeName name="com.rakesh.crud.operator.Chocolate"/>
-    <fullyQualifiedTypeName name="com.rakesh.crud.operator.Gin"/>
-    <fullyQualifiedTypeName name="sun.util.resources.cldr.ur.CalendarData_ur_PK"/>
-    <fullyQualifiedTypeName name="com.rakesh.crud.Stadium"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.CraneDTO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dto.WebSeriesDTO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dao.WebSeriesDAO"/>
     <fullyQualifiedTypeName name="javafx.beans.binding.StringBinding"/>
     <fullyQualifiedTypeName name="com.rakesh.dp.dto.DressCodeDTO"/>
     <fullyQualifiedTypeName name="com.sun.glass.ui.Size"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="com.rakesh.task.AmazonCartDAO"/>
     <fullyQualifiedTypeName name="com.rakesh.task.ArrayAmazonCartDAO"/>
     <fullyQualifiedTypeName name="com.rakesh.task.AmazonBusiness"/>
+    <fullyQualifiedTypeName name="com.rakesh.task1.ComputerDTO"/>
+    <fullyQualifiedTypeName name="com.rakesh.task1.CrudAsusComputerDAO"/>
+    <fullyQualifiedTypeName name="com.rakesh.task1.AsusComputerDAO"/>
+    <fullyQualifiedTypeName name="com.rakesh.task1.AsusComputerStore"/>
+    <fullyQualifiedTypeName name="com.rakesh.task3.BirdDTO"/>
+    <fullyQualifiedTypeName name="com.rakesh.task3.BirdCage"/>
+    <fullyQualifiedTypeName name="com.rakesh.task3.BirdDAO"/>
+    <fullyQualifiedTypeName name="com.rakesh.task3.CrudBirdDAO"/>
 </qualifiedTypeNameHistroy>

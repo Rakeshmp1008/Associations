@@ -1,0 +1,140 @@
+package com.rakesh.collectionmethods;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Methods {
+
+	public static void main(String[] args) {
+		Collection ref = new ArrayList();
+		ref.add("Deepavali");
+		ref.add("Dasara");
+		ref.add("Buddha Purnima");
+		ref.add("Bhau-beej");
+		ref.add("Carnival");
+		ref.add("Children's Day");
+		ref.add("Christmas Day");
+		ref.add("Cheti Chand");
+		ref.add("Chhath Puja");
+		ref.add("Hanuman Jayanti");
+		ref.add("Holla Mohalla");
+		ref.add("Hazrat Ali's Birthday");
+		ref.add(" Haldi Kumkum");
+		ref.add("Karam");
+		ref.add("Kartik Purnima");
+		ref.add(" Karwa Chauth");
+		ref.add("Kumbh Mela ");
+		ref.add(" Kojagiri Poornima");
+		ref.add(" Krishna Janmashtami");
+		ref.add(" Kerala School Kalolsavam");
+		ref.add("Krishnashtami");
+		ref.add("Mahavir Janma Kalyanak");
+		ref.add("Mahamastakabhisheka ");
+		ref.add("Maharashtra Day");
+		ref.add("Mahashivratri");
+		ref.add("Makar Sankranti");
+		ref.add("Manusmriti Dahan Din");
+		ref.add("Muharram (Ashura)");
+		ref.add("Nariyal poornima");
+		ref.add("Nuakhai");
+		ref.add("deepavali2021");
+		ref.add("dasara2021");
+		ref.add("holi2021");
+		ref.add("Navratri");
+		ref.add("National Sports Day");
+		ref.add("Onam");
+		ref.add("Pana Sankranti");
+		ref.add("Parents' Worship Day");
+		ref.add("Paryushan");
+		ref.add("Pitru Paksha");
+		ref.add("Pongal");
+		ref.add("Pusnâ");
+		ref.add("Pola");
+		ref.add("Padwa ");
+		ref.add("Ratha-Yatra");
+		ref.add("Raksha Bandhan");
+		ref.add("Ram Navami");
+		ref.add("Ramadan (Roza)");
+		ref.add("Rashtriya Ekta Diwas");
+		ref.add("Ratha Saptami");
+		ref.add("Indian Republic day");
+		ref.add("radhashtami");
+		ref.add("Sadbhavana Divas");
+		ref.add("Sharad Purnima");
+		ref.add("Shiv Jayanti");
+		ref.add("Saraswati Pooja");
+		ref.add("Sohrai");
+		ref.add("Shigmo");
+		ref.add("Tamil New Year");
+		ref.add("Teacher's Day");
+
+		System.out.println(ref.size());
+		
+		Collection actor=new ArrayList();
+	
+		actor.add("Aadhi");
+		actor.add(" A. K. Hangal");
+		actor.add("Aadi Pudipeddi ");
+		actor.add("Aamir Khan");
+		actor.add("Aashish Chaudhary");
+		actor.add("Abbas");
+		actor.add("Abhay Deol");
+		actor.add("Abhijeeth ");
+		actor.add("Abhishek Bachchan ");
+		actor.add("Abhishek Banerjee");
+		actor.add("Abhishek Chatterjee");
+		actor.add("Abhimanyu Dassani");
+		actor.add("Abhimanyu Singh ");
+		actor.add("Abijeet Duddala");
+		actor.add("Abir Chatterjee");
+		actor.add("Achyuth Kumar");
+		actor.add("Adhyayan Suman");
+		actor.add("Adil Hussain");
+		actor.add("Aditya Babu ");
+		actor.add("Aditya Pancholi");
+		actor.add("Aditya Kumar");
+		actor.add("Aditya Roy Kapur");
+		actor.add("Aditya Seal");
+		actor.add("Adoor Bhasi ");
+		actor.add(" Aftab Shivdasani");
+		actor.add("Ahuti Prasad ");
+		actor.add(" Ajay Devgan");
+		actor.add(" Ajay Rao");
+		actor.add(" Ajaz Khan");
+		actor.add("Ajinkya Dev ");
+		actor.add(" Ajit Khan");
+		actor.add(" Ajith Kumar");
+		actor.add(" Ajmal Ameer");
+		actor.add("Aju Varghese ");
+		actor.add("	Akkineni Akhil ");
+		actor.add(" Akhilendra Mishra");
+		actor.add("Akshay Anand ");
+		actor.add(" Akshay Kumar");
+		actor.add(" Akshaye Khanna");
+		actor.add(" Akshay Oberoi");
+		actor.add("Akul Balaji ");
+		actor.add("Ali Basha ");
+		actor.add(" Ali Fazal");
+		actor.add(" Ali Zafar");
+		actor.add("	Allari Naresh ");
+		actor.add(" 	Allu Arjun");
+		actor.add("Allu Sirish ");
+		actor.add("Alok Nath ");
+		actor.add("Amar Talwar ");
+		actor.add("Ambareesh ");
+		actor.add("Amitabh Bachchan ");
+		actor.add("Amit Sadh ");
+		actor.add("Amit Sial ");
+		actor.add(" Amjad Khan");
+		actor.add("Ammy Virk ");
+		actor.add("Amol Palekar ");
+		actor.add(" Amrish Puri");
+		actor.add("Anand Tiwari ");
+		actor.add(" Ananth Nag");
+		actor.add("Angad Bedi ");
+		
+		System.out.println("No of Actors".concat(" ").size());
+		
+	}
+
+}
