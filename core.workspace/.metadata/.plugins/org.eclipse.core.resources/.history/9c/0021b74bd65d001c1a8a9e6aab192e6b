@@ -1,0 +1,10 @@
+package com.rakesh.functionalinterface;
+
+public class EqualsIgnoreCaseBeerSearch implements StringMatch {
+
+	@Override
+	public boolean evaluate(String ele, String value) {
+		return ele.equalsIgnoreCase(value);
+	}
+
+}

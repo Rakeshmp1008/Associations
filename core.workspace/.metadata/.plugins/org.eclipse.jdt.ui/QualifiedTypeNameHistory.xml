@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javafx.beans.binding.StringBinding"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dto.DressCodeDTO"/>
-    <fullyQualifiedTypeName name="com.sun.glass.ui.Size"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dao.DressCodeDAO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dao.TempleDAO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dto.TempleDTO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dto.BucketDTO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dao.BucketDAO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dto.CameraDTO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dao.CameraDAO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dto.MetroStationDTO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dao.MetroStationDAO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dto.ClubDTO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dao.ClubDAO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dto.iplDTO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dao.iplDAO"/>
-    <fullyQualifiedTypeName name="com.rakesh.dp.dto.WalletDTO"/>
     <fullyQualifiedTypeName name="com.rakesh.dp.dao.WalletDAO"/>
     <fullyQualifiedTypeName name="com.rakesh.dp.dto.CircusDTO"/>
     <fullyQualifiedTypeName name="com.rakesh.dp.dao.CircusDAO"/>
@@ -60,4 +43,21 @@
     <fullyQualifiedTypeName name="com.rakesh.task3.BirdCage"/>
     <fullyQualifiedTypeName name="com.rakesh.task3.BirdDAO"/>
     <fullyQualifiedTypeName name="com.rakesh.task3.CrudBirdDAO"/>
+    <fullyQualifiedTypeName name="com.rakesh.collectionmethods.PhoneNumber"/>
+    <fullyQualifiedTypeName name="com.rakesh.collectionmethods.serializable.PoliceStationDTO"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.rakesh.collectionmethods.serializable.OfficeStarter"/>
+    <fullyQualifiedTypeName name="com.rakesh.collectionmethods.serializable.HospitalDTO"/>
+    <fullyQualifiedTypeName name="com.rakesh.collectionmethods.serializable.ArmyDTO"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="com.rakesh.collectionmethods.serializable.ChocoDTO"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="com.rakesh.functionalinterface.EqualsIgnoreCaseBeerSearch"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="com.rakesh.functionalinterface.StringMatch"/>
+    <fullyQualifiedTypeName name="com.rakesh.functionalinterface.task2.EqualsIgnoreCaseCigarette"/>
+    <fullyQualifiedTypeName name="com.rakesh.functionalinterface.task2.FindStartsWithCigarette"/>
+    <fullyQualifiedTypeName name="com.rakesh.functionalinterface.task2.FindEndsWithCigarette"/>
 </qualifiedTypeNameHistroy>

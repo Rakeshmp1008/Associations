@@ -1,0 +1,17 @@
+package com.rakesh.collectionmethods.serializable;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class PoliceStationStarter  {
+
+	PoliceStationDTO dtos=new PoliceStationDTO("MADIVALA PS","CRIME","MADIVALA",15);
+	PoliceStationDTO dtos2=new PoliceStationDTO("BANASAVADI PS","CRIME","BANASAVADI",35);
+	PoliceStationDTO dtos3=new PoliceStationDTO("BTM PS","TRAFFIC","MICO LAYOUT",56);
+	
+	
+	
+
+	
+
+}

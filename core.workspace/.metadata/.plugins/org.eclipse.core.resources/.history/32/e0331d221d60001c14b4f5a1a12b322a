@@ -1,0 +1,11 @@
+package com.rakesh.functionalinterface.lambda;
+
+@FunctionalInterface
+public interface ParkFinder {
+	
+
+
+	AmusementParkDTO evaluate(AmusementParkDTO dtocompare, AmusementParkDTO element);
+
+
+}

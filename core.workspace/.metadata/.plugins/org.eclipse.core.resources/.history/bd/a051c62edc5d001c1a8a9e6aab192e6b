@@ -1,0 +1,32 @@
+package com.rakesh.functionalinterface.task1;
+
+import com.rakesh.functionalinterface.StringMatch;
+
+public class BiscuitsScammer {
+
+	public static void main(String[] args) {
+
+		BiscuitDAO daos=new BiscuitDAO();
+		
+		StringMatch match=new EqualsBiscuits();
+		boolean bite=daos.find(match, "Parle");
+		System.out.println(bite);
+		
+		StringMatch match1=new EqualsIgnoreCaseBiscuits();
+		boolean bite1=daos.find(match, "BRItania");
+		System.out.println(bite1);
+		
+		StringMatch match2=new FindStartsWithBiscuits();
+		boolean bite2=daos.find(match, "O");
+		System.out.println(bite2);
+		
+		StringMatch match3=new FindEndsWithBiscuits();
+		boolean bite3=daos.find(match, "s");
+		System.out.println(bite3);
+		
+		
+		
+		
+	}
+
+}

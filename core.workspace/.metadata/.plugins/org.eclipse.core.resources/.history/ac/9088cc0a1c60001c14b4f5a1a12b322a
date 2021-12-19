@@ -1,0 +1,8 @@
+package com.rakesh.functionalinterface.lambda;
+
+@FunctionalInterface
+public interface ParkFinder {
+	
+	AmusementParkDTO  evaluate( String dto1, String dto2);
+
+}

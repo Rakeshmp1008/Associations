@@ -1,0 +1,10 @@
+package com.rakesh.loops;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MallsList {
+
+	List<String> listref=new ArrayList<String>();
+	l
+}

@@ -1,0 +1,14 @@
+package com.rakesh.functionalinterface.lambda.product;
+
+public class ProductScammer {
+	public static void main(String[] args) {
+
+		ProductDAO dao=new ProductDAO();
+		
+		ProductDTO dtoCompare=new ProductDTO("TeaPoWDER","TajMahal",800f);
+		
+		ProductDTO found=dao.find((p1,p2)->{
+			if(p1.getName().equals(p2.)
+		}
+	}
+}

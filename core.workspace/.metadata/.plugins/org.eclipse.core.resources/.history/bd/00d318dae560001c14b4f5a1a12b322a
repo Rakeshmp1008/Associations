@@ -1,0 +1,10 @@
+package com.rakesh.loops;
+
+public class MlaList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

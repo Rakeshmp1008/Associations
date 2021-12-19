@@ -1,0 +1,20 @@
+package com.rakesh.functionalinterface.lambda;
+
+public class ParkScammer {
+
+	public static void main(String[] args) {
+
+		AmusementParkDTO dao=new AmusementParkDTO();
+		
+		AmusementParkDTO dtocompare=new AmusementParkDTO("Wonderla","dwd","neijd");
+		
+		AmusementParkDTO found=dao.find((d1,d2)->{
+			if(d1.getName().equals(d2.){
+			
+			}
+			
+		}
+		
+	}
+
+}

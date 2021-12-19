@@ -1,0 +1,12 @@
+package com.rakesh.collectionmethods.serializable;
+
+import java.io.Serializable;
+
+public class PoliceStationStarter implements Serializable {
+	
+	PoliceStationDTO policestationdto=new PoliceStationDTO();
+	
+	List<PoliceStationDTO> listref= new ArrayList<PoliceStationDTO>();
+	
+
+}

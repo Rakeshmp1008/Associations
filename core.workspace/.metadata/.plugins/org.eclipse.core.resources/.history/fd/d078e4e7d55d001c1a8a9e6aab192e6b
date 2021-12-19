@@ -1,0 +1,18 @@
+package com.rakesh.functionalinterface;
+
+public class BeerScammer {
+
+	public static void main(String[] args) {
+
+		BeerBrands daos=new BeerBrands();
+		
+	StringMatch matching=new EqualsBeer();
+		
+		daos.find(matching, "KingFishe");
+		
+		StringMatch matching1=new EqualsIgnoreCaseBeerSearch();
+		
+		daos.find(matching1, "kingFISHER");
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.rakesh.loops;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrimeministerList {
+
+	public static void main(String[] args) {
+
+		List<String> listref=new ArrayList<String>();
+		
+		listref.add("Jawaharlal Neharu");
+		listref.add("Indira Ghandi");
+		listref.add("Rajeev Ghandi");
+		listref.add("Manmohan Singh");
+		listref.add("Narendra Modi");
+
+		for (String elements : listref) {
+			System.out.println(elements);
+		}
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.rakesh.collectionmethods.dao;
+
+public class PlaceDAO {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

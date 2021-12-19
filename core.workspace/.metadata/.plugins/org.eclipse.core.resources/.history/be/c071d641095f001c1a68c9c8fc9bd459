@@ -1,0 +1,5 @@
+package com.rakesh.functionalinterface.lambda;
+
+public interface ParkFinder {
+
+}

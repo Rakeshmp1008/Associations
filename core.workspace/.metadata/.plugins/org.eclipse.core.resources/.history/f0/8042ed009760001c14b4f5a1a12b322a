@@ -1,0 +1,38 @@
+package com.rakesh.loops;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+public class MallsList {
+
+	public static void main(String[] args) {
+
+		Collection<String> list = new ArrayList<String>();
+		list.add("Central Mall");
+		list.add("Orion Mall");
+		list.add("Garuda Mall");
+		list.add("U-Mall");
+		list.add("Lulu Mall");
+		list.add("Orian Mall");
+
+		for (String element : list) {
+			System.out.println(element);
+		}
+
+		System.out.println("========================For Each===========================");
+
+		list.forEach((e) -> {
+			System.out.println(e);
+		});
+
+		System.out.println("========================For loop================================");
+
+		for (int i = 0; i < list.size(); i++) 
+		{
+			boolean element=list.containsAll(list);
+			
+		}
+		
+	}
+}

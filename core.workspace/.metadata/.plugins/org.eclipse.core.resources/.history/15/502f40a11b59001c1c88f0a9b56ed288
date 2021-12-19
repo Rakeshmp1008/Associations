@@ -1,0 +1,10 @@
+package com.rakesh.collectionmethods.serializable;
+
+public class HospitalStarter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
